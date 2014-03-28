@@ -1,6 +1,6 @@
 Shindo.tests 'serverspec' do
   tests 'rubygems' do
-    returns('0.15.3') { Serverspec::VERSION }
+    returns('1.0.0') { Serverspec::VERSION }
   end
 
   tests 'files' do
